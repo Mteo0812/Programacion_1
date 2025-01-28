@@ -1,16 +1,39 @@
+# Archivos generados por Python
 *.pyc
 *.pyo
 __pycache__/
 
+# Entornos virtuales
 venv/
 .venv/
 env/
 .env/
 
+# Archivos de configuración de IDEs
 .vscode/
-
 .idea/
 
-*.sublime-workspace
-*.sublime-project
+# Archivos temporales y logs
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Archivos sensibles
+.env
+.secret_key
+
+# Archivos de pruebas y cobertura de código
+.coverage
+.tox/
+.nox/
+nosetests.xml
+
+# Archivos de distribución y empaquetado
+*.egg-info/
+dist/
+build/
+
+# Archivos generados por herramientas de documentación
+docs/_build/
 
